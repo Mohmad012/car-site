@@ -346,3 +346,29 @@ $(window).on('load', function () {
 		"transform": 'scale(0)'
 	}).parent('body').css("overflow","auto");
 });
+
+
+
+
+
+
+let swiperBox = document.querySelector('.swiper-container')
+
+let swiper = new Swiper(swiperBox, {
+  effect: 'coverflow',
+  grabCursor: true,
+  centeredSlides: true,
+  slidesPerView: 'auto',
+  coverflowEffect: {
+    rotate: 20,
+    stretch: 0,
+    depth: 200,
+    modifier: 1,
+    slideShadows: true,
+  },
+  loop: true,
+  autoplay: {
+    delay: 1000,
+    disableOnInteraction: false,
+  },
+});
