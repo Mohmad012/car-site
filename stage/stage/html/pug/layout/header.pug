@@ -1,0 +1,59 @@
+.header
+	i.fa.fa-exchange.fa-lg.toggle-sidebar
+	.dropdown.notify-container
+		i.fa.fa-bell.fa-lg.header-icon.toggle-notify#notify(data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+		.dropdown-menu(aria-labelledby='notify')
+			.noti-head
+				| Notifications
+				span 50
+			.noti-content
+				ul.list-unstyled
+					li
+						i.fa.fa-envelope-o.fa-lg
+						| You Got Email From Pugjs
+					li
+						i.fa.fa-money.fa-lg
+						| You Got Money From Pugjs
+					li
+						i.fa.fa-envelope-o.fa-lg
+						| You Got Email From Pugjs
+					li
+						i.fa.fa-envelope-o.fa-lg
+						| You Got Link From Pugjs
+					li
+						i.fa.fa-money.fa-lg
+						| You Got Money From Pugjs
+			.noti-foot.text-center: a(href="#") View All Notifications
+	i.fa.fa-expand.fa-lg.toggle-fullscreen.header-icon
+	.dropdown.usermenu-container
+		.username#usermenu(data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+			img.avatar.rounded-circle(src="image/mohmad.jpg" , alt="User Avatar")
+			span.user Mohmad Gamal
+			i.fa.fa-angle-down.fa-lg
+			.dropdown-menu.dropdown-menu-right(aria-labelledby="usermenu")
+				.user-info
+					h3 Mohmad Gamal
+					p Premium Member
+				hr
+				ul.activities-list.list-unstyled
+					li Add Comment On Post 'How To Make Ble Ble Ble'
+					li Created Post On Category "Science"
+					li Cteated Chart On Charts Page
+					li Add Comment On Post 'How To Make Ble Ble Ble Tow'
+				hr
+				.row.usermenu-links
+					.col
+						.link-box.text-center
+							i.fa.fa-gear.fa-lg.fa-fw
+							span Settings
+					.col
+						.link-box.text-center 
+							i.fa.fa-user.fa-lg.fa-fw
+							span My Profile
+					.col
+						.link-box.text-center 
+							i.fa.fa-power-off.fa-lg.fa-fw
+							span Logout
+
+
+

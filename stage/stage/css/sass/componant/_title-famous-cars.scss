@@ -1,0 +1,28 @@
+.title-famous-cars{
+	background-image:linear-gradient(to left, #E91E63, black) !important;
+	.container{
+	    span{
+	    	font-size: 40px;
+	    	cursor: pointer;
+	    	&:first-of-type{
+	    		font-size: 35px;
+    		    color: #FF9800;
+    		    opacity:.5;
+    		    transition: .3s;
+    		    &:hover{
+    		    	opacity:1;
+    		    }
+	    	}
+	    	&:last-of-type{
+	    		color: #E91E63;
+	    		transition: .3s;
+    		    opacity:.5;
+    		    transition: .3s;
+    		    &:hover{
+    		    	opacity:1;
+    		    }
+	    	}
+	    }
+
+	}
+}

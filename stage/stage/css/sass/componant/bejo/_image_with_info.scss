@@ -1,0 +1,13 @@
+.famous-cars-info{
+	margin-top: 40px;
+	a{
+		color: #fff;
+		background-color:#E91E63;
+		padding:10px;
+		opacity:.5;
+		transition: .3s;
+		&:hover{
+			opacity:1;
+		}
+	}
+}

@@ -1,0 +1,73 @@
+.copyright {
+
+	background-image:linear-gradient(to left, $flatpaje, black) !important;
+	color: #fff;
+	overflow: hidden;
+	.copyName{
+		padding:10px;
+	    span{	
+	    		text-align: center;
+	    		font-size: 25px;
+			    @media(max-width: 767px){
+			    	font-size: 28px;
+			    }
+			    @media(min-width: 992px){
+			    	font-size: 28px;
+			    }
+			    @media(min-width: 1201px){
+			    	font-size: 25px;
+			    } 			    
+	    	cursor: pointer;
+	    	&:first-of-type{
+	    		font-size: 25px;
+				    @media(max-width: 767px){
+				    	font-size: 25px;
+				    }
+				    @media(min-width: 992px){
+				    	font-size: 28px;
+				    }
+				    @media(min-width: 1201px){
+				    	font-size: 25px;
+				    } 	
+			    color: #FF9800;
+			    opacity:.5;
+			    transition: .3s;
+			    &:hover{
+			    	opacity:1;
+			    }
+	    	}
+	    	&:last-of-type{
+	    		color: #CDDC39;
+	    		transition: .3s;
+			    opacity:.5;
+			    transition: .3s;
+			    &:hover{
+			    	opacity:1;
+			    }
+	    	}
+	    }
+	}
+	.contus{
+		margin-top: 20px;
+	    @media(max-width: 767px){
+	    	margin-top: 0px;
+	    }
+		a{
+			margin-right: 16px;
+			color: #fff;
+			transition: .3s;
+			&.github:hover{
+				color: #333;
+			}
+			&.gmail:hover{
+				color: #FFC107;
+			}
+			&.facebook:hover{
+				color: #3b5998;
+			}
+			&.linkedin:hover{
+				color: #00a0dc;
+			}
+		}
+	}
+}

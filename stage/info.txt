@@ -1,0 +1,151 @@
+1- sudo npm i gulp@3.9.1 -g
+2- cd name work folder
+3- sudo npm i gulp@3.9.1 --save-dev
+4- add This Packages in One Line As Localy In The Wrok Folder
+5- sudo npm i gulp-concat gulp-autoprefixer gulp-sass  gulp-pug gulp-watch gulp-livereload gulp-sourcemaps gulp-uglify gulp-notify gulp-zip gulp-util vinyl-ftp gulp-minify static-server --save-dev
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+ssh-keygen -t rsa -b 4096 -C "mohmadailsia@gmail.com"
+
+Wright Password
+
+go to ==> [ .ssh ]  In ==> mohmad
+
+cd .ssh
+
+cat id_rsa.pub
+
+copy ==> The Info
+
+Go To Github
+
+Click ==> Settings
+
+Click ==> Deploy keys
+
+Click ==> Add New Key
+
+Click ==> Wright Title
+
+Enter ==> The Info => In Key
+
+Click ==> Allow Write Access
+
+Click ==> Add Key
+
+
+// Make Test On The ==> ssh
+
+ssh -T git@github.com
+
+Wright ==> Password
+
+// Go To The Folder Project
+
+git init
+
+git status
+
+Will Appeare ==> node_modules => This Folder Is Very Larg
+
+make File Gitignore ==> [ touch .gitignore ] To Do Ignore For The Folder => node_modules
+
+Open .gitignore File
+
+Wright Name Folder That You Want To Do Ignore For It
+
+Wright ==> # Ignore Node Modules 
+	   ==>	node_modules
+
+
+git status
+
+The Folder node_modules Will Be Not Found
+
+git add .
+
+git cm 'Message'
+
+git remote add origin git@github.com:Mohmad012/Ultimate-Frontend.git
+
+git pull origin master --rebase
+
+// This Will Git All Files On My Github
+
+git push origin master
+
+// This To Uplead All My Files To Github
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+about tesla:
+
+title:
+
+Tesla’s mission is to accelerate the world’s transition to sustainable energy.
+
+paragraph:
+
+Tesla was founded in 2003 by a group of engineers who wanted to prove that people didn’t need to compromise to drive electric – that electric vehicles can be better, quicker and more fun to drive than gasoline cars.
+
+
+
+
+
+
+
+
+
+about kiv:
+title:
+Kia Cars
+
+
+paragraph:
+
+Kia car prices start(GST Included) at Rs 9.89 Lakh for the most inexpensive model in its lineup, the Seltos. The most expensive car in Kia's lineup is the Carnival, priced at Rs. 33.95 Lakh for its top variant. In total, Kia has 2 models on sale in
+
+
+
+
+
+
+
+
+
+
+
+
+about bejo:
+title:
+
+LAUNCH OF THE 3008
+
+paragraph:
+
+Praised for its style, interior design and features, the new Peugeot 3008 was elected Car of the Year 2017 by a jury of 58 European journalists.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+about ferrari:
+title:
+
+NEW MARKETS AND STOCK EXCHANGE LISTING
+
+
+paragraph:
+
+The third millennium began with a decade of rapid expansion.We boosted our presence on emerging markets, such as the Middle East, China, Japan and the rest of the Far East, as well as consolidating our position on the US,

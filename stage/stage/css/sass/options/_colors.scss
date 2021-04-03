@@ -1,0 +1,41 @@
+$flatBlue:#2980b9;
+$flatBlueAlt:#3498db;
+
+$flatpaje:#6F1E51;
+$flatpajeAlt:#833471;
+
+$flatRed:#c0392b;
+$flatRedAlt:#e74c3c;
+
+$flatGreen:#16a085;
+$flatGreenAlt:#1abc9c;
+
+$themes:(
+	green-theme: (color:#16a085),
+	blue-theme: (color:#2980b9),
+	red-theme: (color:#c0392b),
+	orange-theme: (color:#d35400),
+	purple-theme: (color:#8e44ad),
+	black-theme: (color:#2c3e50)
+);
+
+@each $theme , $map in $themes{
+	.#{$theme}{
+		$color: map-get($map , color);
+		.navbar{
+			background-image:linear-gradient(to left, $color, black) !important;
+		}
+		.navbar .navbar-nav .active>.nav-link{
+			background-color:$color !important;	
+		}
+		.title-famous-cars{
+			background-image:linear-gradient(to left, $color, black) !important;
+		}
+		.famous-cars .card .card-link:last-child{
+			background-color: $color !important;
+		}
+		.copyright{
+			background-image:linear-gradient(to left, $color, black) !important;
+		}
+	}
+}

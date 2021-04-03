@@ -1,0 +1,21 @@
+.sidebar
+	.logo-area.text-center Dashbourd
+	ul.links-area.list-unstyled
+		li: a(href="homepage.html" class=pageTitle === 'HomePage' ? 'active' : '') Homepage
+		li
+			a(href="#") 
+				| Forms	
+				i.fa.fa-angle-right.toggle-submenu
+			ul.child-links.list-unstyled
+				li: a(href="#") Input
+				li: a(href="#") Textarea
+				li: a(href="#") Checkbox
+				li: a(href="#") Radio
+		li
+			a(href="#")
+				| Misc
+				i.fa.fa-angle-right.toggle-submenu
+			ul.child-links.list-unstyled
+				li: a(href="#") Loading
+				li: a(href="#") Breadcrumbs
+		li: a(href="charts.html" class=pageTitle === 'Charts' ? 'active' : '') Charts

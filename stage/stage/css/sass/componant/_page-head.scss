@@ -1,0 +1,70 @@
+.navbar{
+	padding:0;
+	background-image:linear-gradient(to left, $flatpaje, black) !important;
+	z-index: 999;
+	.navbar-brand{
+	    
+	    span{
+	    	font-size: 30px;
+	    	&:first-of-type{
+	    		font-size: 25px;
+    		    color: #FF9800;
+    		    opacity:.5;
+    		    transition: .3s;
+    		    &:hover{
+    		    	opacity:1;
+    		    }
+	    	}
+	    	&:last-of-type{
+	    		color: #E91E63;
+	    		transition: .3s;
+    		    opacity:.5;
+    		    transition: .3s;
+    		    &:hover{
+    		    	opacity:1;
+    		    }
+	    	}
+	    }
+	}
+	.navbar-nav{
+
+		.active > .nav-link{
+
+			background-color:$flatpaje !important;
+		}
+
+
+		.nav-link{
+			color: #fff !important;
+			padding: 15px;
+		    opacity:.5;
+		    transition: .3s;
+		    &:hover{
+		    	opacity:1;
+		    }
+			&.hide_title{
+				display: none;
+			}
+			&.show_title{
+				display: block;
+			}
+		}
+
+		.nav-item:nth-of-type(6){
+				background-color:#100a0a4a;
+			&.openCard{
+				background-color:transparent !important;
+			}
+			.nav-link{
+					pointer-events:none !important;
+					text-decoration: line-through;
+				&.open-word{
+					// normal
+					pointer-events:visible !important;
+					text-decoration: none;
+				}
+			}
+		}
+	}
+}
+

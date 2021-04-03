@@ -1,0 +1,13 @@
+.logo-kiv{
+	background-image:url('../image/kiv/logo/logo_kiv.jpg');
+	@include prefixer(background-size , cover, webkit moz o);
+}
+.logo-kiv + span{
+	display: block;
+	background-image:linear-gradient(to left, #607D8B, black) !important;
+	cursor: pointer;
+	i{	
+		animation:turn_off_light 2s infinite ease-in-out;
+		@include makeAnimation(turn_off_light);
+	}	
+}

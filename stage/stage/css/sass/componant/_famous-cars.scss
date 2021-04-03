@@ -1,0 +1,52 @@
+/*Start Latest Posts*/
+.famous-cars{
+	padding:0 0 100px ;
+	.cars-one , .cars-tow , .cars-three , .cars-four{
+			margin-top: 40px;
+			.one,.tow,.three{
+				opacity:0;
+			}
+		}
+	.card{
+		margin-bottom: 30px;
+		.card-title{
+			font-size: 16px;
+			line-height: 1.5;
+			color: #08526d;
+
+		}
+		h6{
+			&.text-muted{
+				color: #080 !important;
+				font-size: 25px;
+				&.throughLine{
+					color:#F44336 !important;
+					font-size: 20px;
+				}
+			}
+		}
+
+		.card-text{
+			color:#e91e63;
+			line-height: 1.8;
+			margin-bottom: 5px;
+		}
+		.card-link:nth-child(5){
+			color:#fff !important;
+			background-color:#009688 !important;
+			padding:10px;
+		}
+		.card-link:last-child{
+			color:#fff !important;
+			background-color:#e91e63 !important;
+			padding:10px;
+			&.buy{
+				opacity:.5;
+			}
+		}
+	}
+
+}
+
+
+/*End Latest Posts*/

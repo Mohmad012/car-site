@@ -1,0 +1,31 @@
+/*Start Latest Posts*/
+.famous-cars{
+	padding:0 0 100px ;
+	.cars-one , .cars-tow{
+			margin-top: 40px;
+			.one,.tow{
+				opacity:0;
+			}
+		}
+	.card{
+		margin-bottom: 30px;
+		.card-title{
+			font-size: 16px;
+			line-height: 1.5;
+			color: #08526d;
+
+		}
+		.card-text{
+			color:#e91e63;
+			line-height: 1.8;
+			margin-bottom: 5px;
+		}
+		.card-link{
+			color:#F44336;
+		}
+	}
+
+}
+
+
+/*End Latest Posts*/

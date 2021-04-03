@@ -1,0 +1,92 @@
+/* Start Section Contact Us Style */
+.contact-us {
+	background: url('../image/contact.jpg') no-repeat center center fixed;
+	@include prefixer(background-size , cover , webkit moz o);
+	min-height: 100vh;
+	i{
+		color: #fff;
+	}
+	h2{
+		color: #fff;
+	}
+	p
+	{
+		margin-bottom: 50px;
+		display: block;
+		color: #fff;
+	}
+	textarea
+	{
+		height: 108px;
+		
+	}
+	.fields
+	{
+		min-height: 100vh;
+		background-color:#0000008a;
+		@include prefixer(background-size , cover , webkit moz o);
+		.btn-contact{
+			background-color:$flatpaje;
+			color: #fff;
+			@include prefixer(opacity , .5 , webkit moz o);
+			@include prefixer(transition , opacity .3s ease-in-out , webkit moz o);
+			&:hover{
+				@include prefixer(opacity , 1 , webkit moz o);
+			}
+		}
+	}
+	.input-form:focus::-webkit-input-placeholder 
+	{
+		opacity: 0;
+		@include prefixer(transition , opacity .5s ease-in-out , webkit moz o);
+	}
+
+	.input-form:focus::-moz-input-placeholder 
+	{
+		opacity: 0;
+		@include prefixer(transition , opacity .5s ease-in-out , webkit moz o);
+	}
+
+	.input-form:focus:-moz-input-placeholder 
+	{
+		opacity: 0;
+		@include prefixer(transition , opacity .5s ease-in-out , webkit moz o);
+	}
+
+	.input-form:focus::-ms-input-placeholder 
+	{
+		opacity: 0;
+		@include prefixer(transition , opacity .5s ease-in-out , webkit moz o);
+	}
+
+	.input-form::-webkit-input-placeholder 
+	{
+		color: #fff;
+	}
+
+	.input-form::-moz-input-placeholder 
+	{
+		color: #fff;
+	}
+
+	.input-form:-moz-input-placeholder 
+	{
+		color: #fff;
+	}
+
+	.input-form::-ms-input-placeholder 
+	{
+		color: #fff;
+	}
+
+	.input-form{
+		background-color:#1917168a;
+		@include prefixer(transition , background-color .5s ease-in-out , webkit moz o);
+	}
+	.input-form:focus{
+		background-color:#0000008a;
+	}
+
+}
+
+/* End Section Contact Us Style */

@@ -1,0 +1,156 @@
+.header{
+	background-color:#fff;
+	padding:20px;
+	i.header-icon{
+		background-color:#f9f9f9;
+		padding:10px;
+		border-radius:50%;
+		color: #555;
+		cursor: pointer;
+		margin-left: 10px;
+	}
+	.toggle-sidebar{
+		cursor: pointer;
+		&:hover{
+			color: #27ae60;
+		}
+	}
+	.notify-container{
+		display: inline-block;
+		margin-left: 20px;
+		.dropdown-menu{
+			min-width: 600px;
+			border:none;
+			box-shadow:0 0 10px #ddd;
+			padding:0;
+			top: 2px !important;
+			&:before{
+				content: '';
+				position: absolute;
+				left: 11px;
+				top: -20px;
+				border-style: solid;
+				border-width: 10px;
+				border-color: transparent transparent #333333 transparent;
+
+			}
+			.noti-head{
+				background-color:#333;
+				color: #fff;
+				padding: 15px;
+				font-weight: bold;
+				span {
+					float: right;
+				}
+			}
+			.noti-content{
+				padding:20px;
+				ul{
+					margin:0;
+					li{
+						padding:5px;
+						font-weight: bold;
+						color: #777;
+						border-bottom:1px solid #e9e8e8;
+						margin-bottom: 10px;
+						font-size: 15px;
+						&:first-of-type{
+							padding-top: 0;
+						}
+						&:last-of-type{
+							margin-bottom:0;
+							padding-bottom: 0;
+							border-bottom:none;
+						}
+						i{
+							background-color:#f7f7f7;
+						    width: 30px;
+						    height: 30px;
+						    line-height: 30px;
+						    text-align: center;
+						    margin-right: 10px;
+						    position: relative;
+						    top: -6px;
+						    font-size: 14px;
+						    color: #fff;
+							&.fa-envelope-o{
+								background-color:#4caf50;
+							}
+							&.fa-money{
+								background-color:#2196f3;
+							}
+							&.fa-thumbs-o{
+								background-color:#ff9800;
+							}
+						}
+					}
+				}
+			}
+			.noti-foot{
+
+				a{
+					display: block;
+					padding:10px;
+					border-top:1px solid #eee;
+					&:hover{
+						text-decoration: none;
+					}
+				}
+			}
+		}
+	}
+	.usermenu-container{
+		float: right;
+		.username{
+			cursor: pointer;
+			.avatar{
+				width: 40px;
+			}
+			.user{
+				font-weight: bold;
+				color: #777;
+				margin-right: 10px;
+				margin-left: 10px;
+			}	
+		}
+		.dropdown-menu{
+			min-width: 600px;
+			border:none;
+			box-shadow:0 0 10px #ddd;
+			padding:20px;
+			top: 2px !important;
+			border:1px solid #ddd;
+			&:before{
+				content: '';
+				position: absolute;
+				right: 40px;
+				top: -20px;
+				border-style: solid;
+				border-width: 10px;
+				border-color: transparent transparent #ddd transparent;
+
+			}
+			.user-info{
+				h3{
+					font-weight: bold;
+					color: #16a085;
+				}
+				p{
+					color: #777;
+				}
+			}
+			.activities-list{
+				li{
+					padding: 10px;
+				}
+			}
+			.usermenu-links{
+				.link-box{
+					background-color:#f3f3f3;
+					padding:10px;
+					border-radius:6px;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,14 @@
+.scroll-to-top{
+	background-color: #333;
+	color: #fff;
+	padding: 0 5px 3px;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	display: none;
+	z-index: 8888;
+	@include prefixer(transition , .3 , webkit moz o);
+	&:hover{
+		color:  #fff;
+	}
+}

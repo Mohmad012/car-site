@@ -1,0 +1,13 @@
+.logo-tesla{
+	background-image:url('../image/tesla/logo/tesla_logo.jpg');
+	@include prefixer(background-size , cover, webkit moz o);
+}
+.logo-tesla + span{
+	display: block;
+	background-image:linear-gradient(to left, #607D8B, black) !important;
+	cursor: pointer;
+	i{	
+		animation:turn_off_light 2s infinite ease-in-out;
+		@include makeAnimation(turn_off_light);
+	}	
+}

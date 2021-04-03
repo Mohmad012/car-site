@@ -1,0 +1,16 @@
+.settings-box.hide-settings
+	.toggle-settings
+		i.fa.fa-gear.fa-lg
+	.settings-content.text-center
+		.option-box.color-options
+			h4.option-title Color Options
+			- var thems = [ 'green-theme' , 'blue-theme' ,  'red-theme' ,  'orange-theme' , 'purple-theme' , 'black-theme']
+			ul.list-unstyled
+				each theme in thems
+					li(data-theme=theme)
+		.option-box.font-option
+			h4.option-title Font Options
+			- var fonts = ['open' , 'public' , 'roboto' , 'source'] // Add This From Google Fonts To Git Link From It And Add The Link In ==> Style.pug
+			select.form-control.text-uppercase
+				each font in fonts
+					option(value=font)=font + ' Font'
