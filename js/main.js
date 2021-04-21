@@ -301,51 +301,51 @@ $(function () {
 
 });
 
-// Loading Screen
-$(window).on('load', function () {
-	"use strict";
+// // Loading Screen
+// $(window).on('load', function () {
+// 	"use strict";
 
-	$('.slide-up-effect').delay(100).slideUp(1000 , function(){
+// 	$('.slide-up-effect').delay(100).slideUp(1000 , function(){
 
-		"use strict";
+// 		"use strict";
 
-		$("body").delay(5000).css("overflow","auto");
-	});
+// 		$("body").delay(5000).css("overflow","auto");
+// 	});
 
-	$('.slide-down-effect').delay(100).slideUp(1000 , function(){
+// 	$('.slide-down-effect').delay(100).slideUp(1000 , function(){
 
-		"use strict";
+// 		"use strict";
 
-		$("body").delay(5000).css("overflow","auto");
-	});
+// 		$("body").delay(5000).css("overflow","auto");
+// 	});
 
-	$('.slide-left-effect').delay(100).animate({
+// 	$('.slide-left-effect').delay(100).animate({
 
-		left:'-100%'
+// 		left:'-100%'
 
-	},1000,function(){
-		"use strict";
+// 	},1000,function(){
+// 		"use strict";
 
-		$("body").delay(5000).css("overflow","auto");
-	});
+// 		$("body").delay(5000).css("overflow","auto");
+// 	});
 
-	$('.slide-right-effect').delay(100).animate({
+// 	$('.slide-right-effect').delay(100).animate({
 
-		left:'100%'
+// 		left:'100%'
 
-	} , 1000 ,function(){
-		"use strict";
+// 	} , 1000 ,function(){
+// 		"use strict";
 
-		$("body").delay(5000).css("overflow","auto");
-	});
+// 		$("body").delay(5000).css("overflow","auto");
+// 	});
 
 
-	$('.slide-zoom-effect').delay(100).css({
+// 	$('.slide-zoom-effect').delay(100).css({
 
-		"transition": 'transform 1.5s ease-in-out',
-		"transform": 'scale(0)'
-	}).parent('body').css("overflow","auto");
-});
+// 		"transition": 'transform 1.5s ease-in-out',
+// 		"transform": 'scale(0)'
+// 	}).parent('body').css("overflow","auto");
+// });
 
 
 
