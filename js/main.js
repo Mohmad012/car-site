@@ -1,6 +1,7 @@
 /*global $ , jquery , console*/
 
 $(function () {
+	$("body").css("overflow","auto");
 
 	if (document.title == 'ContactPage' || document.title == 'CardsPage') {
 
